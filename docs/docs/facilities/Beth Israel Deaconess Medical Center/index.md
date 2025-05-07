@@ -8,12 +8,11 @@ tags:
   - Trauma1
 Location: Boston, MA
 Website: https://www.bidmc.org/
-path: bidmc.md
 Parent: "[[Beth Israel Lahey Health]]"
 ---
 > [!WARNING] **Multiple Campuses**
 > BI Boston has two disconnected campuses.
-> **EMERGENCIES**: Go to [[../docs/docs/facilities/Beth Israel Deaconess Medical Center/BIDMC West Campus|BIDMC West Campus]], [Ambulance Bay on Pilgrim Road](https://maps.app.goo.gl/MvnDpGPvystHrDzn7).
+> **EMERGENCIES**: Go to [[./BIDMC West Campus|BIDMC West Campus]], [Ambulance Bay on Pilgrim Road](https://maps.app.goo.gl/MvnDpGPvystHrDzn7).
 > East campus does *not* have an emergency room.
 > 
-> Both [[../docs/docs/facilities/Beth Israel Deaconess Medical Center/BIDMC West Campus|West Campus]] and [[../docs/docs/facilities/Beth Israel Deaconess Medical Center/BIDMC East Campus|East Campus]] have in-patient floors and both in-patient and out-patient services.
+> Both [[./BIDMC West Campus|West Campus]] and [[./BIDMC East Campus|East Campus]] have in-patient floors and both in-patient and out-patient services.
