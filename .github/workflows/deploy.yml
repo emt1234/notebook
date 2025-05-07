@@ -10,6 +10,7 @@ on:
       - 'overrides/**'
       - 'docs/**'
       - 'mkdocs.yml'
+      - '.gitmodules'
       - 'uv.lock'
   repository_dispatch:
     types: [build]
