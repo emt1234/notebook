@@ -92,14 +92,14 @@ plugins:
   - search
   - meta-descriptions
   - awesome-pages
-  - blog:
-      blog_dir: blog
-      blog_toc: true
-      post_readtime_words_per_minute: 300
+  # - blog:
+  #     blog_dir: blog
+  #     blog_toc: true
+  #     post_readtime_words_per_minute: 300
   - git-revision-date-localized:
       type: date
       fallback_to_build_date: true
-      locale: fr
+      locale: en
       custom_format: "%A %d %B %Y"
       enable_creation_date: true
   - ezlinks:
