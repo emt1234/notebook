@@ -1,7 +1,9 @@
-site_name: $site_name # Change this to your site name
-site_description: $site_description
-site_url: $site_url # Change this to your site URL
-site_author: $site_author
+site_name: EMS Notebook
+site_description: Notes for EMS Professionals
+site_url: https://emt1234.github.io/notebook/
+site_author: FL
+repo_url: https://github.com/emt1234/notebook
+edit_uri: edit/main/docs/
 
 theme:
     name: 'material'
