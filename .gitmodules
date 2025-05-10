@@ -1,9 +1,0 @@
-[submodule "docs/facilities"]
-	path = docs/facilities
-	url = git@github.com:emt1234/facilities.git
-[submodule "docs/medical"]
-	path = docs/medical
-	url = git@github.com:emt1234/medical.git
-[submodule "docs/orgs"]
-	path = docs/orgs
-	url = git@github.com:emt1234/orgs.git
