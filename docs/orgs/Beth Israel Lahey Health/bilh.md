@@ -1,5 +1,5 @@
 ---
-title: bilh
+slug: bilh
 tags:
   - HospitalSystem
 ---
