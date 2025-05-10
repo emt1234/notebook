@@ -1,5 +1,5 @@
 ---
-title: bidmc-east
+slug: bidmc-east
 tags:
   - H
   - Hospital
