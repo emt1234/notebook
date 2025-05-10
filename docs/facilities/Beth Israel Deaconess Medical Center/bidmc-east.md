@@ -1,4 +1,5 @@
 ---
+title: BIDMC East Campus
 slug: bidmc-east
 tags:
   - H
