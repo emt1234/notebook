@@ -34,10 +34,13 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
     features:
+        - content.action.edit
         - navigation.indexes
         - navigation.top
         - navigation.tabs
         - navigation.tabs.sticky
+        - navigation.path
+        - navigation.instant.preview
         - search.suggest
         - search.highlight
 # Extensions
@@ -137,7 +140,7 @@ extra:
   no-auto-h1: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/Enveloppe/
+      link: https://github.com/emt1234/notebook
   blog_list:
     pagination: true
     pagination_message: true
