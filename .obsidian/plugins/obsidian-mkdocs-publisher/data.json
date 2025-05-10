@@ -27,8 +27,8 @@
     "rootFolder": "",
     "yamlFolderKey": "",
     "frontmatterTitle": {
-      "enable": false,
-      "key": "title"
+      "enable": true,
+      "key": "slug"
     },
     "replaceTitle": [],
     "replacePath": [],
@@ -103,5 +103,5 @@
       "excludedFileName": "DRAFT"
     }
   },
-  "tabsId": "upload-configuration"
+  "tabsId": "github-configuration"
 }
