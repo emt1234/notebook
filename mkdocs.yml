@@ -34,7 +34,8 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
     features:
-        - content.action.edit
+        # TODO: Fix URLs (correct repos for submodules, index.md, etc)
+        # - content.action.edit
         - navigation.indexes
         - navigation.top
         - navigation.tabs
