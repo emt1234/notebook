@@ -23,7 +23,7 @@
   },
   "upload": {
     "behavior": "obsidian",
-    "defaultName": "docs",
+    "defaultName": "",
     "rootFolder": "",
     "yamlFolderKey": "",
     "frontmatterTitle": {
@@ -103,5 +103,5 @@
       "excludedFileName": "DRAFT"
     }
   },
-  "tabsId": "github-configuration"
+  "tabsId": "upload-configuration"
 }
