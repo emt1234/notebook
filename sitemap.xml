@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
+         <loc>https://emt1234.github.io/notebook/</loc>
+         <lastmod>2025-05-10</lastmod>
+    </url>
+    <url>
          <loc>https://emt1234.github.io/notebook/EMS%20Notebook/</loc>
          <lastmod>2025-05-10</lastmod>
     </url>
     <url>
-         <loc>https://emt1234.github.io/notebook/facilities/Beth%20Israel%20Deaconess%20Medical%20Center/BIDMC%20East%20Campus/</loc>
+         <loc>https://emt1234.github.io/notebook/facilities/Beth%20Israel%20Deaconess%20Medical%20Center/</loc>
          <lastmod>2025-05-10</lastmod>
     </url>
     <url>
-         <loc>https://emt1234.github.io/notebook/facilities/Beth%20Israel%20Deaconess%20Medical%20Center/BIDMC%20West%20Campus/</loc>
+         <loc>https://emt1234.github.io/notebook/facilities/Beth%20Israel%20Deaconess%20Medical%20Center/bidmc-east/</loc>
          <lastmod>2025-05-10</lastmod>
     </url>
     <url>
-         <loc>https://emt1234.github.io/notebook/facilities/Beth%20Israel%20Deaconess%20Medical%20Center/Beth%20Israel%20Deaconess%20Medical%20Center/</loc>
+         <loc>https://emt1234.github.io/notebook/facilities/Beth%20Israel%20Deaconess%20Medical%20Center/bidmc-west/</loc>
          <lastmod>2025-05-10</lastmod>
     </url>
     <url>
@@ -25,7 +29,7 @@
          <lastmod>2025-05-10</lastmod>
     </url>
     <url>
-         <loc>https://emt1234.github.io/notebook/orgs/Beth%20Israel%20Lahey%20Health/Beth%20Israel%20Lahey%20Health/</loc>
+         <loc>https://emt1234.github.io/notebook/orgs/Beth%20Israel%20Lahey%20Health/bilh/</loc>
          <lastmod>2025-05-10</lastmod>
     </url>
     <url>
