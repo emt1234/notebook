@@ -3,7 +3,7 @@
     "user": "emt1234",
     "repo": "notebook",
     "branch": "staging",
-    "automaticallyMergePR": false,
+    "automaticallyMergePR": true,
     "dryRun": {
       "enable": false,
       "folderName": "enveloppe"
@@ -18,12 +18,12 @@
       "name": ""
     },
     "otherRepo": [],
-    "verifiedRepo": false,
-    "rateLimit": 0
+    "verifiedRepo": true,
+    "rateLimit": 4978
   },
   "upload": {
-    "behavior": "fixed",
-    "defaultName": "",
+    "behavior": "obsidian",
+    "defaultName": "docs",
     "rootFolder": "",
     "yamlFolderKey": "",
     "frontmatterTitle": {
@@ -38,7 +38,7 @@
       "excluded": []
     },
     "folderNote": {
-      "enable": false,
+      "enable": true,
       "rename": "index.md",
       "addTitle": {
         "enable": false,

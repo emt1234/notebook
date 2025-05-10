@@ -174,5 +174,5 @@ cython_debug/
 
 # Obsidian files
 .obsidian/workspace.json
-.obsidian/plugins/obsidian-mkdocs-publisher/*
-!.obsidian/plugins/obsidian-mkdocs-publisher/data.json
+.obsidian/plugins/*/*
+!.obsidian/plugins/*/data.json
