@@ -1,0 +1,46 @@
+#!/bin/bash
+
+if [[ $# -ne 2 ]]; then
+    echo "Error: must provide git user name, email address" >&2
+    exit 1
+fi
+
+GIT_USER="$1"
+GIT_EMAIL="$2"
+
+declare -a SUBMODULES=("facilities" "medical" "orgs")
+
+MAIN_BRANCH="main"
+STAGING="staging"
+
+# Make sure we're starting on 'main'
+git checkout "$MAIN_BRANCH"
+
+# Delete and reset the current 'staging' branch
+git branch -d "$STAGING"
+git checkout -b "$STAGING"
+git push --force -u origin "$STAGING"
+
+# Remove each submodule (content will be inserted via Envelopee)
+for i in "${SUBMODULES[@]}"
+do
+    git rm "docs/$i"
+    git add .gitmodules
+done
+git commit -m "[skip ci] Remove submodules" 
+git push
+
+# Switch back to 'main' and reinitialize submodules
+git checkout "$MAIN_BRANCH"
+git submodule update --remote
+
+for i in "${SUBMODULES[@]}"
+do
+    cd "docs/$i"
+    git checkout main
+    git config --local user.name "$GIT_USER"
+    git config --local user.email "$GIT_EMAIL"
+    cd ../../
+done
+
+echo "'$STAGING' branch reset. In Obsidian, make sure you trigger a new Envelopee upload"
