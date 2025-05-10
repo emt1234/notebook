@@ -8,3 +8,4 @@ tags:
   - ER
 Location: Boston, MA
 ---
+A hospital in Boston.
