@@ -1,5 +1,5 @@
 ---
-title: bidmc-west
+slug: bidmc-west
 tags:
   - H
   - Hospital
