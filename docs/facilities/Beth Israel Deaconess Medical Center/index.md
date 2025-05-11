@@ -9,7 +9,6 @@ tags:
 Location: Boston, MA
 Website: https://www.bidmc.org/
 Parent: "[[Beth Israel Lahey Health]]"
-title: Beth Israel Deaconess Medical Center
 ---
 > [!WARNING] **Multiple Campuses**
 > BI Boston has two disconnected campuses.
